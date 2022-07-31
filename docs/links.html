@@ -1,0 +1,127 @@
+<!--
+ * @FilePath: \docs\links.html
+ * @Author: Solitude-DDD
+ * @Date: 2022-07-27 07:45:48
+ * @Description: 友情链接页面
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客-友情链接</title>
+</head>
+
+<body>
+    <div id="main">
+        <!--文章区-->
+        <section>
+            <h2>友情链接</h2>
+            <div><a href="http://ql.sylu.edu.cn/">琴理工作室</a></div>
+            <div><a href="https://www.bilibili.com/">哔哩哔哩 (゜-゜)つロ</a></div>
+            <div><a href="">友情链接</a></div>
+            <div><a href="">友情链接</a></div>
+            <div><a href="">友情链接</a></div>
+        </section>
+        <!--列表区-->
+        <footer>2022 - 简易个人博客 - 琴理工作室</footer>
+    </div>
+    <div id="sidebar">
+        <div id="profile">
+            <div id="avatar">
+                <a href="./about.html"><img src="./static/image/qlstudio.jfif" alt="头像" /></a>
+            </div>
+            <h1>琴小理的博客</h1>
+        </div>
+        <div id="navigator">
+            <div><a href="./index.html">首页</a></div>
+            <div><a href="./links.html">友链</a></div>
+        </div>
+    </div>
+</body>
+
+<style>
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100%;
+        display: flex;
+        /* font-family: "Helvetica Neue",Arial,"Hiragino Sans GB",STHeiti,"Microsoft YaHei"; */
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #main {
+        order: 1;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section {
+        flex-grow: 1;
+        padding-bottom: 30px;
+    }
+
+    section h2 {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+    
+    section a {
+        line-height: 200%;
+        color: #999;
+        padding-left: 5em;
+    }
+
+    footer {
+        text-align: center;
+        line-height: 60px;
+        border-top: solid 1px #ccc;
+    }
+
+    #sidebar {
+        flex-shrink: 0;
+        width: 230px;
+        background-color: #222;
+        color: #999;
+    }
+
+    #sidebar a {
+        color: #999;
+    }
+
+    #profile {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    #profile h1 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+
+    #avatar img {
+        width: 150px;
+    }
+
+    #navigator {
+        padding-left: 40px;
+        line-height: 30px;
+    }
+</style>
+
+</html>

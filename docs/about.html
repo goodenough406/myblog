@@ -1,0 +1,135 @@
+<!--
+ * @FilePath: \docs\about.html
+ * @Author: Solitude-DDD
+ * @Date: 2022-07-27 07:45:56
+ * @Description: 个人介绍页面
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客-个人介绍</title>
+</head>
+
+<body>
+    <div id="main">
+        <!--介绍区-->
+        <section>
+            <h2>个人介绍</h2>
+            <p>
+                大家好，我是琴小理，沈阳理工大学教务处琴理工作室的虚拟人物，接下来我将和琴理工作室的前端同学为大家带来这门写给普通人的网页开发课！！！
+            </p>
+            <h2>版权说明</h2>
+            <p>
+                大家现在所看到的是这次入门课的成品，针对初学者的，比较简单，课程将分为三次，在学完后，希望大家可以基本了解网页开发！！！
+            </p>
+            <p>
+                想交流网页开发，c语言，等其他方向的技术的话，欢迎加入群聊：<b>琴理工作室2022-我们在这里等你</b>
+            </p>
+            <p style="text-align: center;"><img src="./static/image/QR-code.png" alt="群聊二维码"></p>
+        </section>
+        <footer>2022 - 简易个人博客 - 琴理工作室</footer>
+    </div>
+    <!--列表区-->
+    <div id="sidebar">
+        <div id="profile">
+            <div id="avatar">
+                <a href="./about.html"><img src="./static/image/qlstudio.jfif" alt="头像" /></a>
+            </div>
+            <h1>琴小理的博客</h1>
+        </div>
+        <div id="navigator">
+            <div><a href="./index.html">首页</a></div>
+            <div><a href="./links.html">友链</a></div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+
+</script>
+<style>
+    html,
+    body {
+        padding: 0;
+        margin: 0;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        min-height: 100%;
+        display: flex;
+        /* font-family: "Helvetica Neue",Arial,"Hiragino Sans GB",STHeiti,"Microsoft YaHei"; */
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #main {
+        order: 1;
+        padding: 0 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section {
+        flex-grow: 1;
+        padding-bottom: 30px;
+    }
+
+    section h2 {
+        font-size: 2rem;
+        font-weight: normal;
+    }
+
+    section p {
+        text-indent: 2em;
+        line-height: 180%;
+    }
+
+
+    footer {
+        text-align: center;
+        line-height: 60px;
+        border-top: solid 1px #ccc;
+    }
+
+    #sidebar {
+        flex-shrink: 0;
+        width: 230px;
+        background-color: #222;
+        color: #999;
+    }
+
+    #sidebar a {
+        color: #999;
+    }
+
+    #profile {
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    #profile h1 {
+        font-size: 1.5rem;
+        font-weight: normal;
+    }
+
+    #avatar img {
+        width: 150px;
+    }
+
+    #navigator {
+        padding-left: 40px;
+        line-height: 30px;
+    }
+</style>
+
+</html>
